@@ -97,7 +97,7 @@ nav.wrapper_ef3116 {
     margin-bottom: 0px;
     width: var(--custom-guild-list-width);
 }
-/*all of these just modifies the server icons size*/
+/*all of these just modifies the server icons size
 .wrapper_cc5dd2 {
     position: relative;
     margin-bottom: 15px;
@@ -112,4 +112,4 @@ nav.wrapper_ef3116 {
 .shiftSVG_cc5dd2 {
     left: -10px;
     top: 4px;   
-}
+}*/
