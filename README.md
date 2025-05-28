@@ -6,7 +6,7 @@ The idea of this CSS is to make the new UI look more like the old one and to mak
 ### known bugs and problems
 
  - The icons on the server, such as the mention, stream and VC icons, are in the wrong position.
- - the inbox and help buttons are innacessible(i had to hide them to avoid some ugly visual overlap since i do not know how to change the positions lol)
+ - the inbox and help buttons are innacessible(i had to hide them to avoid some ugly visual overlap)
 
 ## Example images
 Top bar with the server name removed
