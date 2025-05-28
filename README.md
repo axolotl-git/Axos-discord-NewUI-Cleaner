@@ -16,6 +16,7 @@ User profile and settings panel modified to not overlap with the servers panel
 ![Screenshot 2025-05-28 091304](https://github.com/user-attachments/assets/2fe101f5-0db2-478a-a635-4982c6252ad1)
 
 After you start to type some text in the messages search bar it expands:
-[MConverter.eu 7075017a-0503-45cf-b69e-5a0d567c3d5b.webm](https://github.com/user-attachments/assets/764e9b17-d6be-477b-98db-ea4a9aa8c9f7)
+![7075017a-0503-45cf-b69e-5a0d567c3d5b](https://github.com/user-attachments/assets/bc27e35b-ceea-4b13-8a03-d3972f0a626d)
+
 
 
