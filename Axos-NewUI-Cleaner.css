@@ -1,0 +1,115 @@
+
+.visual-refresh .button_e6e74f {
+    background: transparent;
+    border: 0px;
+    height: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+
+/* this thing below is to change the search bar size
+(the one where you search messages in a server) */
+.visual-refresh .searchBar__97492 {
+    background: uset;
+    border: 0px solid var(--input-border);
+    border-radius: var(--radius-sm);
+    height: 32px;
+    padding: 2px 0;
+    width: 110px;
+    transition: width 0.35s ease; /* Add a transition for smooth width change */
+}
+
+/*this thing is the same thing of the other one
+but it changes when you start to write in the search bar*/
+.visual-refresh .focused__97492 .searchBar__97492,.visual-refresh .open__97492 .searchBar__97492 {
+    width: 195px
+}
+
+.visual-refresh div.searchBar__97492 {
+    outline: 0;
+    padding: 2.7px;
+}
+.channelTabs-tabContainer div {
+	margin-bottom: 0 !important;
+}
+:root{
+    --custom-category-channel-space-before-category: 7px
+}
+button[aria-label="Send a gift"]
+{
+    display: none;
+}
+/* Disable 'Learn More' for nitro in the popout in the side DM */
+div[class*=overlayBackground_]:has(button[class*=getNitroButton_])
+{
+    display: none;
+};
+/* Disable nitro icon in word count */
+div[class*=characterCount_] div[class*=iconOnly_]:has(svg[class*=premium_])
+{
+    display: none;
+}
+/* Disables the server title top bar*/
+.visual-refresh .bar_c38106{
+  display: none;
+}
+/*this remove the server title bar*/
+:root
+{
+  --custom-app-top-bar-height: 0px;
+}
+
+/*remove the inbox and help button, i am stupid and i don't know how to move 'em*/
+.title_c38106 {
+    display: none;
+}
+.trailing_c38106,.winButtons_c38106 {
+    display: none;
+}
+
+/* Add 12px offset to the server list, fixes the uncomfortable look when removing the titlebar*/
+nav.wrapper_ef3116 {
+  padding-top: 12px;
+}
+/*this change the user panel with all the settings to not over the servers bar*/
+.visual-refresh .panels_c48ade {
+    --custom-panels-spacing: var(--space-xs);
+    background: var(--bg-overlay-floating,var(--background-base-low));
+    border: 1px solid var(--border-faint);
+    border-radius: var(--radius-sm);
+    bottom: var(--custom-panels-spacing);
+    box-sizing: border-box;
+    justify-content: space-between;
+    left: var(--custom-panels-spacing);
+    position: absolute;
+    margin-left: 83px;
+    margin-bottom: 5px;
+    width: calc(77.6% - var(--custom-panels-spacing)*2)
+}
+/*this remove the gap under the server bar*/
+.visual-refresh .wrapper_ef3116 {
+    --custom-guild-list-width: 80px;
+    background-color: var(--bg-base-tertiary);
+    margin-bottom: 0px;
+    width: var(--custom-guild-list-width);
+}
+/*all of these just modifies the server icons size*/
+.wrapper_cc5dd2 {
+    position: relative;
+    margin-bottom: 15px;
+}
+.svg_cc5dd2 {
+    contain: paint;
+    position: absolute;
+    width: 64px;
+    height: 64px
+}
+
+.shiftSVG_cc5dd2 {
+    left: -10px;
+    top: 4px;   
+}
